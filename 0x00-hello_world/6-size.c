@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-printf("Size of char: %zu\nbyte(s)", sizeof(char));
-printf("Size of int: %zu\nbyte(s)", sizeof(int));
-printf("Size of long int: %zu\nbyte(s)", sizeof(long int));
-printf("Size of long long int: %zu\nbyte(s)", sizeof(long long int));
-printf("Size of float: %zu\nbyte(s)", sizeof(float));
+printf("Size of char: %zu\n byte(s)", sizeof(char));
+printf("Size of int: %zu\n byte(s)", sizeof(int));
+printf("Size of long int: %zu\n byte(s)", sizeof(long int));
+printf("Size of long long int: %zu\n byte(s)", sizeof(long long int));
+printf("Size of float: %zu\n byte(s)", sizeof(float));
 return (0);
 }
 
