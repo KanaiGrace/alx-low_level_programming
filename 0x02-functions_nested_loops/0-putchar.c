@@ -1,12 +1,16 @@
-#include<stdio.h>
+#include "main.h"
+
 
 /**
- * main - prints a word
+ * main -  calls a function
  *
  * Return: 0
  */
+
 int main(void)
 {
-printf("_putchar\n");
+_putchar('b');
+_putchar('\n');
 return (0);
 }
+
