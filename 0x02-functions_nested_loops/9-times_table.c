@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 #include <stdio.h>
 
 /**
@@ -16,13 +15,12 @@ for (a = 0; a <= 9; a++)
 for (b = 0; b <= 9; b++)
 {
 result = a * b;
-printf("%d", result);
+printf("%2d", result);
 if (b != 9)
 {
-_putchar(',');
-_putchar(' ');
+printf(", ");
 }
 }
-_putchar('\n');
+printf("\n");
 }
 }
