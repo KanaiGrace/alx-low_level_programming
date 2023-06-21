@@ -1,10 +1,11 @@
 #include "main.h"
+#include <unistd.h>
 #include <stdio.h>
 
 /**
  * times_table - print timestable
  *
- * Return: void
+ * Return: 0
  */
 void times_table(void)
 {
