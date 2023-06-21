@@ -18,7 +18,7 @@ result = a * b;
 printf("%2d", result);
 if (b != 9)
 {
-printf(", ");
+printf(",");
 }
 }
 printf("\n");
