@@ -1,0 +1,1 @@
+Tasks containing pointers which are variables that contain memory adress,Arrays which hold a number of values of same data type and Strings which are a sequence of characters which can be represented as an array of characters
