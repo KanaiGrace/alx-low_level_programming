@@ -17,5 +17,6 @@ for (i = length / 2; i < length; i++)
 _putchar(str[i]);
 }
 }
+_putchar('\n');
 }
 
