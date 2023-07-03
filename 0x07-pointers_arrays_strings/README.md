@@ -1,0 +1,1 @@
+Pointer to pointer variables this are pointer variables that hold the address of another pointer so the first pointer holds the address of the first pointer while the second holds the address of the variable also get to learn two dimensional arrays
