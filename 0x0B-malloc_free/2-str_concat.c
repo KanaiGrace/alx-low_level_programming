@@ -10,7 +10,7 @@
 char *str_concat(char *s1, char *s2)
 {
 char *z;
-int i = 0, j = 0, k = 0;
+int i = 0, j = 0, k = 0, l = 0;
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
@@ -23,12 +23,12 @@ while (s2[j])
 {
 j++;
 }
-z = malloc(sizeof(char) * (i + j + 1));
+l = i + j;
+z = malloc(sizeof(char) * l + 1);
 if (z == NULL)
-{
 return (NULL);
-}
-while (k < (i + j))
+j = 0;
+while (k < l)
 {
 if (k <= i)
 z[k] = s1[k];
