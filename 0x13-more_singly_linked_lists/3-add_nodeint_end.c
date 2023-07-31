@@ -24,7 +24,7 @@ if (*head == NULL)
 }
 else
 {
-count = head;
+count = *head;
 while (count->next != NULL)
 {
 count = count->next;
