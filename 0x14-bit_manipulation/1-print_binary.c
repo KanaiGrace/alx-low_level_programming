@@ -2,25 +2,23 @@
 
 /**
  * print_binary - converts int to binary
- * @n:holds value passed
+ * @n: holds value passed (unsigned long int)
  */
 void print_binary(unsigned long int n)
 {
-int i, cnt = 0;
-unsigned int curnt;
+int i, bt = 0;
+unsigned long int msk = 1UL << 63;
 for (i = 63; i >= 0; i--)
 {
-curnt = n >> i;
-if (curnt & 1)
+if (n & msk)
 {
 _putchar('1');
-cnt++;
+bt = 1;
 }
-else if (cnt)
+else if (bt || i == 0)
 {
 _putchar('0');
 }
-if (!cnt)
-_putchar('0');
+n <<= 1;
 }
 }
