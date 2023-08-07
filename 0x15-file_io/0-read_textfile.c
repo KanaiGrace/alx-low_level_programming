@@ -36,5 +36,5 @@ if (wtch == -1 || wtch < (ssize_t)cnt)
 return (0);
 free(buffer);
 fclose(ptrfile);
-return (cnt);
+return (wtch);
 }
