@@ -15,6 +15,8 @@ int a;
 size_t cnt = 0;
 ssize_t wtch;
 char *buffer;
+if (filename == NULL)
+return (0);
 ptrfile = fopen(filename, "r+" );
 if (ptrfile == NULL)
 {
@@ -22,7 +24,7 @@ return (0);
 }
 buffer = (char *)malloc((letters + 1) * sizeof(char));
 if (buffer == NULL)
-return (-1);
+return (0);
 while ((a = fgetc(ptrfile)) != EOF && cnt < letters)
 {
 buffer[cnt] = a;
